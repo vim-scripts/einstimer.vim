@@ -3,17 +3,17 @@
 " Language:	PrimeTime/TCL
 " Maintainer:	Paul Zimmer <pzimmer@cisco.com>
 " Original:	Paul Zimmer <pzimmer@cisco.com>
-" Version:	5.8 (synched to tcl.vim v5.8), Wed Feb 13 15:20:56 PST 2002
+" Version:	6.1 (synched to tcl.vim v6.1), Tue Apr 30 15:48:58 PDT 2002
 "
 "
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
-if version < 600
+"if version < 600  <- got this from somewhere, but it doesn't seem to work
   syntax clear
-elseif exists("b:current_syntax")
-  finish
-endif
+"elseif exists("b:current_syntax")
+"  finish
+"endif
 
 " Pull in tcl/tk
 
