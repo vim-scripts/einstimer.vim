@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=225
+
+This is a syntax file for IBM's Einstimer tcl language
+
+The syntaxing can handle optional arguments and all their legal abbreviations.
+The command names themselves, however, have to be spelled out completely.
+I haven't figured out a clean way of doing the command abbreviations.
+
+This syntax file sources the standard tcl syntax file from the vim
+release to do most of the tcl stuff.  I have just added the language-specific
+extensions.  I'm not an expert in vim syntaxing, but they seem to work
+reasonably well.  Send comments and suggestions to:
+
+paulzimmer@zimmerdesignservices.com
